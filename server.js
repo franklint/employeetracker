@@ -1,7 +1,5 @@
 const db = require('./db/connection');
 const inquirer = require("inquirer"); 
-const { allowedNodeEnvironmentFlags } = require('process');
-const e = require('express');
 require("console.table"); 
 
 
